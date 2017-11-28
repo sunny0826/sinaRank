@@ -55,6 +55,6 @@ def sinaRankToMysql():
     # 关闭连接
     cursor.close()
     connect.close()
-    print None
+    return None
 
 sinaRankToMysql()
